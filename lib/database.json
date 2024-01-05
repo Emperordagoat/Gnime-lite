@@ -17,6 +17,10 @@
     "17863688449@s.whatsapp.net": {
       "afkTime": -1,
       "afkReason": ""
+    },
+    "917811937953@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
     }
   },
   "chats": {
@@ -29,6 +33,10 @@
       "wame": false
     },
     "17863688449@s.whatsapp.net": {
+      "mute": false,
+      "wame": false
+    },
+    "917811937953@s.whatsapp.net": {
       "mute": false,
       "wame": false
     }
