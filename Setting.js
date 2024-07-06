@@ -2,7 +2,7 @@ const fs = require('fs-extra')
 if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/config.env' })
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '2348039607375' ;
+global.owner = process.env.OWNER_NUMBER || '2347041620617' ;
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://danielpeter:beka10beka10@cluster0.ef032ix.mongodb.net/?retryWrites=true&w=majority" ;
 global.port=8000  ;
 global.audio = '' ; 
@@ -10,22 +10,22 @@ global.video = '' ;
 global.blockJids = process.env.BLOCK_JID ||'120363169665426586@g.us' ;
 global.allowJids = process.env.ALLOW_JID ||'120363169665426586@g.us' ;
 global.email = 'astromedia0010@outlook.com' ; 
-global.github = 'https://github.com/Astropeda/Gnime-lite' ;
+global.github = 'https://github.com/Emperordagoat/Gnime-lite' ;
 global.location = 'Lagos Nigeria' ;
 global.timezone  = process.env.TIME_ZONE || 'Africa/Lagos'
-global.gurl = 'https://github.com/Astropeda' ; 
-global.sudo =  process.env.SUDO || "2348039607375";
-global.devs = "2348039607375";
-global.mztit = process.env.MZTIT ||"ɢɴɪᴍᴇ-ʟɪᴛᴇ",
+global.gurl = 'https://github.com/Emperordagoat' ; 
+global.sudo =  process.env.SUDO || "2347041620617";
+global.devs = "2347041620617";
+global.mztit = process.env.MZTIT ||"Emperor-md",
 global.Gname = process.env.GNAME ||"ɢɴɪᴍᴇ ᴍᴅ-sᴜᴘᴘᴏʀᴛ",
-global.zyt = process.env.ZYT || 'https://github.com/Astropeda',
+global.zyt = process.env.ZYT || 'https://github.com/Emperordagoat',
 global.waUrl = process.env.WAURL ||"https://chat.whatsapp.com/KFe2GEMBZ9eI1bpNVotZOW",
-global.website = 'https://github.com/Astropeda' ; 
+global.website = 'https://github.com/Emperordagoat' ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://leadier-umbrellas.000webhostapp.com/1.jpg' ;
 //---------------------------------------------------------------------------
 //-------------------------------------
 module.exports = {
-  sessionName: process.env.SESSION_ID || 'lite;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK1A5Q0dObGNHL0oxNlh0eHpqK0JlM1JJR0Nua2hUZlpqdGpoL3dUN1owdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSnRWU3VhQUpkWDAwZE5tRDFUeVpMc2g4RWp3SUVTdlBsQUt1RmNuMGkzWT0ifX0sInNpZ25lZElkZW50aXR5S2V5Ijp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJHTCtia0pKTnVIa2srZWNaRDJZUlhITWFPVkw2dTNzWlVLaDRnMHdIL2tZPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI5VXVad1NBNDhCMElOdjVENlpMSWFBQ1NHdGxuczNHdXBaMVdsZTVValZNPSJ9fSwic2lnbmVkUHJlS2V5Ijp7ImtleVBhaXIiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjJHM0JnN2tmU2Z4ZE81cWhFdXFGK3VsSGt2c2k0b3lJR25NNFVpVU5VMGM9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im16bWtCclFzUU9McmxTcSsyVzJ5b0dIaVRVUjUweDhxNXpIQ2t5KzlVVnc9In19LCJzaWduYXR1cmUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIydFphZTM4YXBCUGNaRmhqK1NjaHBHc3dlNHV1RnZtdGhNdXQ0YmI1Sm80Z2lpcXhGLzlNSHVVUGwrOTBsV0p2Z29COE11WGN6WUo2Rm8reUJqendpQT09In0sImtleUlkIjoxfSwicmVnaXN0cmF0aW9uSWQiOjI1MywiYWR2U2VjcmV0S2V5IjoiVllpMFlGb1hWZzEwNHlMRUwxWitERC9qbDh6b3gvT2VHcTNuUGZ6ZGFwST0iLCJwcm9jZXNzZWRIaXN0b3J5TWVzc2FnZXMiOltdLCJuZXh0UHJlS2V5SWQiOjMxLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6MzEsImFjY291bnRTeW5jQ291bnRlciI6MCwiYWNjb3VudFNldHRpbmdzIjp7InVuYXJjaGl2ZUNoYXRzIjpmYWxzZX0sImRldmljZUlkIjoibV9PTzBUSzhST1dkZWRMWDJ6RFJFUSIsInBob25lSWQiOiI1MTQxM2I4OS1kZWZlLTRlYjYtYmVlNi1iMjVhOTRkYmQyNDMiLCJpZGVudGl0eUlkIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieUlJTnl0QmVaaHh1SEgyeDlGMHB5dUFLMjlzPSJ9LCJyZWdpc3RlcmVkIjpmYWxzZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJSYXNIU0hNMHRqVk93OWduUFlzRnJlUkx3Y0U9In0sInJlZ2lzdHJhdGlvbiI6e30sImFjY291bnQiOnsiZGV0YWlscyI6IkNNcVFwbTRRODlqZXJBWVlBaUFBS0FBPSIsImFjY291bnRTaWduYXR1cmVLZXkiOiIyU2IzdlE2bnNoNjdPdVpvMkk2UHNQcndNaDd2VmpUVElpeW8yL0NQdDE4PSIsImFjY291bnRTaWduYXR1cmUiOiIxRU5vVlJJWTM0cTVaVlEycWE3RGVzbnRNVHZ3NE5DTFJGYnQ2SkwzTlJpdDIxWDR4a2lmNjdGTUM0R3B3azEvWHNCWWdUdnc0V3FlU0JPaTFwOUhEdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiSGhUZ0Nrb2szaVUrdXBlR01NMFFzc3k3RnhmMzV0UkNLUlNUd056cjJnYVZjcTZpaWJjb1JBbWFsUklGMFhNbVM3MDRsUmhJeWl0bGtqcHgvbU5taGc9PSJ9LCJtZSI6eyJpZCI6IjIzNDgwMzk2MDczNzU6NDVAcy53aGF0c2FwcC5uZXQifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjM0ODAzOTYwNzM3NTo0NUBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJka205NzBPcDdJZXV6cm1hTmlPajdENjhESWU3MVkwMHlJc3FOdndqN2RmIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzA0NDM4OTAyfQ==',
+  sessionName: process.env.SESSION_ID || 'lite;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZUpzL1dYcDM2T200NVNWVGlZL3ZxQ0MvUUgyVlkxdm13c1QvK0ZPVjBXOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiN3FDTkJhQWNDQU10bUhVMHRQQlRjNHBQL21XOHZLQnhXWCtZa1BBcFBUdz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJBQTBhdzY3M0wrQkpVT25NMWxKaEpsK2dTWmpJUWFNZ2hOZ09Jd0NHYkdzPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJtcDBObEdha1lpam9CYXZWSVc5dXFIZUJ5VDJPQUpSS1hMT1JkeVhRT0JvPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im1GaXR1eW1WOUorOE5OWXFHdm0wYWxxbFc0WE9uTW44Zmk0TXY4RURuVWM9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImlhcnlyaWpxZ3hvSjhYYTRPbzFwMFpZdWJ1WVNCTEtKNXhtR2d4NDN1RUk9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRU9kc0NMV0VTbW9MZkZQL0pnZHQ5L3BpaHZIUjYwZmpxTy9veGk4NkVHbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSDNkNzNMVmM2LzVuTG9wdnRBSE5pWmd5YVQwL3hHMTNaNVZpZlZ2K1pqND0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkVWNUxJdnUvNncvZnBUTjNMbmFWNDMyWE5GS3NBZDhwS1gvTjhJS1BLUXFjNUNmRkZZZURuWTZNOE12djFmZlArUElHeGozb1dFNlVnQXhETXZQK0NnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NjUsImFkdlNlY3JldEtleSI6ImZhaTgwTm9WcXd1VFFVZ0pLUWtlelpsZjVzV05KSjNrRkFVc2VjUDB3cDg9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IjNycVUxX0hHUWwteDZiejVsVkZzMWciLCJwaG9uZUlkIjoiMTE0NjFmMDgtNDU5ZC00ZmMxLWI3ODktZjQ1Y2FlYTYwNGI5IiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlhPZ3VXT2diUTVka2pJRjJJVUdHS0gxaHh0MD0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJkb20yZm1iaXhSTjMzV2h5RkU3NEs0QW1wQW89In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiWUoxTDc3TVgiLCJtZSI6eyJpZCI6IjIzNDcwNDE2MjA2MTc6NThAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ1BySzdyNEZFTHlrcExRR0dBTWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6Ik9xM002Mm9LMjY3THdrK3JKZjlwdXIvNHc1NTNqb3l6dmhBY1NRSzJEUlU9IiwiYWNjb3VudFNpZ25hdHVyZSI6Ik1uMlBYRVhZVlg0VGplemtCWWtRb28rRE1OTGdacmMwSjl4OHBJY1dqNlJJcFB6WHNsYWtxcWdnRjNoMVRDdHlPWStrOW9GMGtZL1BDNjFSOVhWTEFRPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJDRUZTa0VQMUE1OERDR0VGMXh2MDloM3RNdDdIOTk3Q0tzQXFZYkN4Ym1UUExSaXJ2TmdXOVpqZVRWTm5lOUtrWTJ0THhMbndBY3NQRERNR0ZkUGhBdz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjIzNDcwNDE2MjA2MTc6NThAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCVHF0ek90cUN0dXV5OEpQcXlYL2FicS8rTU9lZDQ2TXM3NFFIRWtDdGcwViJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcyMDI1OTE0NSwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFENFUifQ==',
   botname: process.env.BOT_NAME || 'ɢɴɪᴍᴇ ᴍᴅ',
   ownername:  process.env.OWNER_NAME || `ᴀsᴛʀᴏ`,
   author:  process.env.PACK_AUTHER || 'ᴀsᴛʀᴏ', 
